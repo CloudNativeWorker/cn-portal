@@ -1,0 +1,357 @@
+pageInfo:
+  title: Cloud Native Workspace
+appConfig:
+  hideComponents:
+    hideSettings: true
+    hideFooter: true
+  theme: deep-ocean
+  layout: auto
+  iconSize: medium
+  language: en
+sections:
+  - name: Application Definition & Image Build
+    icon: far fa-rocket
+    items:
+      - title: HELM
+        description: The Kubernetes Package Manager
+        icon: >-
+          https://landscape.cncf.io/logos/2a103aa382ba5d44aa93311342ad5d48a1ad789ee473bbde6d972907de91c70c.svg
+        url: https://helm.sh/
+        id: 0_3318_helm
+      - title: Dapr
+        description: >-
+          Dapr is a portable, event-driven, runtime for building distributed
+          applications across cloud and edge.
+        icon: >-
+          https://landscape.cncf.io/logos/0b3df75f4c552d10b2507ba112ac7df86e827ba22909c27850b2fab028bb166d.svg
+        url: https://dapr.io/
+        id: 1_3318_dapr
+      - title: KubeVela
+        description: The Modern Application Platform.
+        icon: >-
+          https://landscape.cncf.io/logos/08bda8ed92d7722ca7af60469efc08b70bbec56e4928f89f2386d93bf72abbaa.svg
+        url: https://kubevela.io/
+        id: 2_3318_kubevela
+      - title: KubeVirt
+        description: >-
+          Kubernetes Virtualization API and runtime in order to define and
+          manage virtual machines.
+        icon: >-
+          https://landscape.cncf.io/logos/1cfd7bf84e118cc66f4e80cb112b330a46c260e9dced9258e1d7832949584461.svg
+        url: https://kubevirt.io/
+        id: 3_3318_kubevirt
+      - title: Operator Framework
+        description: >-
+          SDK for building Kubernetes applications. Provides high level APIs,
+          useful abstractions, and project scaffolding.
+        icon: >-
+          https://landscape.cncf.io/logos/1678e65ca8705611731fcda4fef344323336739aa0e4647bacafd7bf9bc5b454.svg
+        url: >-
+          https://www.redhat.com/en/technologies/cloud-computing/openshift/what-are-openshift-operators
+        id: 4_3318_operatorframework
+      - title: sealer
+        description: >-
+          Build, Share and Run Both Your Kubernetes Cluster and Distributed
+          Applications
+        icon: >-
+          https://landscape.cncf.io/logos/e6b0b05ccc4d6807f11c6d30f676048e2886ebe10ee919643692bb0341fd733b.svg
+        url: http://sealer.cool/
+        id: 5_3318_sealer
+  - name: Continuous Integration & Delivery
+    items:
+      - title: Argo
+        description: >-
+          Kubernetes-native tools to run workflows, manage clusters, and do
+          GitOps right.
+        icon: https://avatars.githubusercontent.com/u/30269780?s=200&v=4
+        url: https://argoproj.github.io/
+        id: 0_3205_argo
+      - title: Flux
+        description: >-
+          Open and extensible continuous delivery solution for Kubernetes.
+          Powered by GitOps Toolkit.
+        icon: >-
+          https://landscape.cncf.io/logos/26ce8f2d7c6e888774afde2979b67dbe1891ed99c36a18897d57dc928a5cc931.svg
+        url: https://fluxcd.io/
+        id: 1_3205_flux
+      - title: OpenKruise
+        description: >-
+          Cloud-native application life-cycle orchestration. Keptn automates
+          your SLO-driven multi-stage delivery and operations & remediation of
+          your applications.
+        icon: >-
+          https://landscape.cncf.io/logos/fa8cb808b708b588a8c908c40b6f4881b11bb72c10cc4dd3cf22e7de6c1f9519.svg
+        url: https://www.keptn.sh/
+        id: 2_3205_openkruise
+      - title: Jenkins
+        description: Jenkins automation server
+        icon: >-
+          https://landscape.cncf.io/logos/345eb026a54643f2ae6a08d6c39cc16bdacaef9fe02f6f31f767ade77a25245f.svg
+        url: https://jenkins.io/aaaa
+        id: 3_3205_jenkins
+  - name: Database
+    items:
+      - title: TiKV
+        description: >-
+          A distributed transactional key-value database. Based on the design of
+          Google Spanner and HBase, but simpler to manage and without
+          dependencies on any distributed filesystem
+        icon: >-
+          https://landscape.cncf.io/logos/2e09f18d6fdb09ba54777003a2a980415d60c1ee1173c013428ff81ca89b4f0a.svg
+        url: https://tikv.org/
+        id: 0_789_tikv
+      - title: Vitess
+        description: >-
+          MySQL-compatible, horizontally scalable, cloud-native database
+          solution.
+        icon: >-
+          https://landscape.cncf.io/logos/58e6ac5fd661c2e0ef82606ff3fce9ce4755bccb167e302b65c1af762447f93f.svg
+        url: https://vitess.io/
+        id: 1_789_vitess
+  - name: Scheduling & Orchestration
+    items:
+      - title: Crossplane
+        description: >-
+          Crossplane is the cloud native control plane framework that allows you
+          to build control planes without needing to write code. Crossplane has
+          a highly extensible backend that enables you to orchestrate
+          applications and infrastructure no matter where they run and a highly
+          configurable frontend that lets you define the declarative API it
+          offers.
+        icon: >-
+          https://landscape.cncf.io/logos/c43855293d114dcad77461e7e5af20cf26023e365619f5d4abb54942b51ffc8a.svg
+        url: https://crossplane.io/
+        id: 0_2513_crossplane
+      - title: Knative
+        description: >-
+          Knative is a developer-focused serverless application layer which is a
+          great complement to the existing Kubernetes application constructs.
+          Knative consists of three components: an HTTP-triggered autoscaling
+          container runtime called “Knative Serving”, a CloudEvents-over-HTTP
+          asynchronous routing layer called “Knative Eventing”, and a
+          developer-focused function framework which leverages the Serving and
+          Eventing components, called Knative Functions.
+        icon: >-
+          https://landscape.cncf.io/logos/2baf6553197efa5309408c69f120d6b11fab0fc15b00d83afcff52923395b385.svg
+        url: https://knative.dev/
+        id: 1_2513_knative
+  - name: Service Mesh
+    items:
+      - title: Istio
+        description: >-
+          Simplify observability, traffic management, security, and policy with
+          the Istio service mesh.
+        icon: >-
+          https://landscape.cncf.io/logos/f8b0352227e8fe525229221580f75c9eaa8dc64880ba0ea25c41a7da35f99e21.svg
+        url: https://istio.io/
+        id: 0_1150_istio
+      - title: Linkerd
+        description: >-
+          Ultra light, ultra simple, ultra powerful. Linkerd adds security,
+          observability, and reliability to Kubernetes, without the complexity.
+        icon: >-
+          https://landscape.cncf.io/logos/f1940543e59719e7ce1929d7bf6004b9fc56db3a6a59a2dc6f0db16c789b28ac.svg
+        url: https://linkerd.io/
+        id: 1_1150_linkerd
+  - name: Remote Procedure Call
+    items:
+      - title: gRPC
+        description: The C based gRPC (C++, Python, Ruby, Objective-C, PHP, C#)
+        icon: >-
+          https://landscape.cncf.io/logos/97f3e80b0d492049bfe966e4dcbd8a4d9e6a6f150a4993f09292a3e71ff5e767.svg
+        url: https://grpc.io/
+        id: 0_2001_grpc
+  - name: Service Proxy
+    items:
+      - title: Envoy
+        description: Cloud-native high-performance edge/middle/service proxy
+        icon: >-
+          https://landscape.cncf.io/logos/1cb1ec893e39b60f7d14dc76c6cc1e597b24be0161c0bdf9f97442fcb8d331f9.svg
+        url: https://www.envoyproxy.io/
+        id: 0_1299_envoy
+      - title: Caddy
+        description: >-
+          Caddy is a powerful, enterprise-ready, open source web server with
+          automatic HTTPS written in Go
+        url: https://caddyserver.com/
+        icon: >-
+          https://landscape.cncf.io/logos/719582d6b7c624ff9ecf6019ebf2af06fe83c0b39be55f9eb44b1a018e747c42.svg
+        id: 1_1299_caddy
+      - title: F5
+        description: F5 Networks provides application security and delivery tools.
+        icon: >-
+          https://landscape.cncf.io/logos/2827ae7b957ad049317e1d52b1f3b9940fa523e21aa80b04da78df9eb2e0941d.svg
+        url: https://www.f5.com/
+        id: 2_1299_f
+      - title: HAProxy
+        description: HAProxy Load Balancer's development branch (mirror of git.haproxy.org)
+        url: https://www.haproxy.com/
+        icon: >-
+          https://landscape.cncf.io/logos/6ebdce44aec4d474eebadeae9808dd0577258913d958fa54c629263ae029cbcb.svg
+        id: 3_1299_haproxy
+      - title: Mosn
+        description: The Cloud-Native Network Proxy Platform
+        url: https://mosn.io/
+        icon: >-
+          https://landscape.cncf.io/logos/94020935d0905eda8ddd3201f17490e6f19a7d5d0c527d5b5c8b4068a59f726b.svg
+        id: 4_1299_mosn
+  - name: API Gateway
+    items:
+      - title: Traefik
+        description: The Cloud Native Application Proxy
+        icon: >-
+          https://landscape.cncf.io/logos/d63f84811961e58b592ac3a6c4f08d7fafaecf9e7aad6435ca6920c1eb5eceb7.svg
+        url: https://traefik.io/traefik
+        id: 0_972_traefik
+  - name: Coordination & Service Discovery
+    items:
+      - title: CoreDNS
+        description: CoreDNS is a DNS server that chains plugins
+        icon: >-
+          https://landscape.cncf.io/logos/9f366c2d009f0fc6fa4dd5fbfc4dbb462f3d20a09c534d3e4ced67dcb9b092b1.svg
+        url: https://coredns.io/
+        id: 0_3064_coredns
+      - title: etcd
+        description: >-
+          Distributed reliable key-value store for the most critical data of a
+          distributed system
+        icon: >-
+          https://landscape.cncf.io/logos/3df38eed08cdfaf1f60d0d1c303e62108bb14a31b74f0c47e67828e962e8b1d2.svg
+        url: https://etcd.io/
+        id: 1_3064_etcd
+  - name: Cloud Native Storage
+    items:
+      - title: Rook
+        description: Storage Orchestration for Kubernetes
+        icon: >-
+          https://landscape.cncf.io/logos/d08d5a49647bd660e74f90a4ff4f46524f35a4463b65090f4bcc513e577922b2.svg
+        url: https://rook.io/
+        id: 0_1907_rook
+      - title: JuiceFS
+        description: >-
+          JuiceFS is a distributed POSIX file system built on top of Redis and
+          S3.
+        icon: >-
+          https://landscape.cncf.io/logos/fb9219503b211d33273c5bde2525801819e85c3487b5a43acd1f104ee6ded8e3.svg
+        url: https://juicefs.com
+        id: 1_1907_juicefs
+  - name: Cloud Native Network
+    items:
+      - title: Cilium
+        description: eBPF-based Networking, Security, and Observability
+        icon: >-
+          https://landscape.cncf.io/logos/7aa7c85f6502daecd8ddd00b50d6ecf4a55765a710de6f53c82fa71faad7531d.svg
+        url: https://cilium.io/
+        id: 0_1928_cilium
+      - title: Container Network Interface (CNI)
+        description: Container Network Interface - networking for Linux containers
+        icon: >-
+          https://landscape.cncf.io/logos/bd68f9ae32a75e7a125d5950df8caa2d50b7b9230aace569b9f2c5032cab41f6.svg
+        url: https://www.cni.dev/
+        id: 1_1928_containernetworkinterfacecni
+      - title: Flannel
+        description: flannel is a network fabric for containers, designed for Kubernetes
+        icon: >-
+          https://landscape.cncf.io/logos/a6f0eb95e24f40e3726a848bacd36df621a8a741a05b689d5069cfa6ac96c83d.svg
+        url: http://www.redhat.com/
+        id: 2_1928_flannel
+  - name: Container Runtime
+    items:
+      - title: containerd
+        description: An open and reliable container runtime
+        icon: >-
+          https://landscape.cncf.io/logos/f26381b645b2f14293a2a597bc98b5bbe1e5e086029de41830ba7c667353bf3e.svg
+        url: https://containerd.io/
+        id: 0_1703_containerd
+      - title: CRI-O
+        description: >-
+          Open Container Initiative-based implementation of Kubernetes Container
+          Runtime Interface
+        icon: >-
+          https://landscape.cncf.io/logos/eda661b12f4ec308c552121f5178b4cfec326ebbef6c7587ca8f96db41f1fa77.svg
+        url: https://cri-o.io/
+        id: 1_1703_crio
+      - title: gVisor
+        description: Application Kernel for Containers
+        icon: >-
+          https://landscape.cncf.io/logos/4c0411c174677e9586bbf55cdc3238c87bbca566465aff20ebfa0a166c45d4e3.svg
+        url: https://gvisor.dev/
+        id: 2_1703_gvisor
+  - name: Security & Compliance
+    items:
+      - title: Falco
+        description: Cloud Native Runtime Security
+        icon: >-
+          https://landscape.cncf.io/logos/46848d2dd4b6d1f81fca25ea4b788dbca8a7b11052e372edfe2b82b39f65dff5.svg
+        url: https://falco.org/
+        id: 0_1977_falco
+      - title: Keycloak
+        description: >-
+          Keycloak is an open-source identity and access management solution for
+          modern applications and services, built on top of industry security
+          standard protocols.
+        icon: >-
+          https://landscape.cncf.io/logos/7623609b1064be2a64435aa1b2eef8961b6b16ad202ee35cd15cd9cd7c98e739.svg
+        url: https://www.keycloak.org/
+        id: 1_1977_keycloak
+  - name: Automation & Configuration
+    items:
+      - title: KubeEdge
+        description: Kubernetes Native Edge Computing Framework (project under CNCF)
+        icon: >-
+          https://landscape.cncf.io/logos/cfb665dc9a024771b54107c3ebcd0802bfdfc74c65ea00892516bf36a3a4dc8a.svg
+        url: https://kubeedge.io/en/
+        id: 0_2527_kubeedge
+  - name: Container Registry
+    items:
+      - title: Harbor
+        description: >-
+          An open source trusted cloud native registry project that stores,
+          signs, and scans content.
+        icon: >-
+          https://landscape.cncf.io/logos/de4f2dfd628db72e7d482ff0d9d22f0615f800a222ce7c8d6d2b5a147da77883.svg
+        url: https://goharbor.io/
+        id: 0_1820_harbor
+      - title: Dragonfly
+        description: >-
+          Dragonfly is an open source P2P-based file distribution and image
+          acceleration system. It is hosted by the Cloud Native Computing
+          Foundation (CNCF) as an Incubating Level Project.
+        icon: >-
+          https://landscape.cncf.io/logos/225020f69648d0a421ecab2621c5009299af0b2e4f5cacfbc60566b0d7224867.svg
+        url: https://d7y.io/
+        id: 1_1820_dragonfly
+  - name: Observability
+    items:
+      - title: Fluentd
+        description: Unified Logging Layer (project under CNCF)
+        icon: >-
+          https://landscape.cncf.io/logos/af80830c567373db3566d11fc8f42f7a2648a58db4f11163fa143042ce515b04.svg
+        url: https://www.fluentd.org/
+        id: 0_1375_fluentd
+      - title: Jaeger
+        description: CNCF Jaeger, a Distributed Tracing Platform
+        icon: >-
+          https://landscape.cncf.io/logos/ccf33f1990e7f6a495508c03ead4e8768d6dbc7110921beb97ec7e12e02dc0f9.svg
+        url: https://www.jaegertracing.io/
+        id: 1_1375_jaeger
+      - title: Prometheus
+        description: The Prometheus monitoring system and time series database.
+        icon: >-
+          https://landscape.cncf.io/logos/4d6a2b87a6c9a01ed1b82cef5db978e273adb99fda44d47e5dae48f75207147c.svg
+        url: https://prometheus.io/
+        id: 2_1375_prometheus
+      - title: OpenTelemetry
+        description: OpenTelemetry community content
+        icon: >-
+          https://landscape.cncf.io/logos/52818595352a47637721976b546e0a2a1d0da186a0eb97ec203bd7e5248eb4fc.svg
+        url: https://opentelemetry.io/
+        id: 3_1375_opentelemetry
+  - name: Chaos Engineering
+    items:
+      - title: Chaos Mesh
+        description: A Chaos Engineering Platform for Kubernetes.
+        icon: >-
+          https://landscape.cncf.io/logos/c2d48356d047c47a0563b0880de835ab72b95864ef6a05ad3b72fd5ac1e738c6.svg
+        url: https://chaos-mesh.org/
+        id: 0_1657_chaosmesh
