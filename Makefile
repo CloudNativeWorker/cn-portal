@@ -10,7 +10,7 @@ build:
 	docker run --rm \
 	-e GIT_COMMIT=$(GIT_COMMIT) \
 	-e GIT_TAG=$(LATEST_TAG) \
-	-v $(BASE_PATH)/static:/app/static \
+	-v $(BASE_PATH)/docs:/app/static \
 	-v $(BASE_PATH)/build/conf.yaml:/app/public/conf.yml \
 	lissy93/dashy:2.1.2 sh -c "yarn build && cp -rf /app/dist/* /app/static/"
 help:
